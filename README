@@ -1,1 +1,22 @@
-
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+    <meta charset="UTF-8">
+    <title>CleanupTool Dashboard</title>
+    <style>
+        body { background: #0b0e11; color: white; font-family: sans-serif; direction: rtl; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .card { background: #1a1d21; border: 2px solid #00d2ff; padding: 40px; border-radius: 20px; text-align: center; box-shadow: 0 0 20px rgba(0, 210, 255, 0.3); }
+        h1 { color: #00d2ff; margin-bottom: 10px; }
+        p { color: #ccc; margin-bottom: 25px; }
+        .download-btn { background: #00d2ff; color: black; padding: 12px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        .download-btn:hover { background: white; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>CleanupTool Dashboard</h1>
+        <p>بەخێرهێیت کەمال بلباس، ئەمە لاپەڕەی فەرمی ئامرازی پاککردنەوەیە.</p>
+        <a href="https://github.com/serverblbas-svg/CleanupTool/raw/main/cleanup.bat" class="download-btn">داونڵۆدکردنی فایلی .bat</a>
+    </div>
+</body>
+</html>
